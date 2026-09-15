@@ -107,28 +107,54 @@
 
   <!-- CONTACT DETAILS + CONTACT FORM -->
   <div class="contact-grid">
-    <div class="contact-details">
-      <a class="contact-detail" href="tel:+919984062355"><span>Phone</span><strong>+91 9984062355 ↗</strong></a>
-      <a class="contact-detail" href="mailto:vivekverma3025@gmail.com"><span>Email</span><strong>vivekverma3025@gmail.com ↗</strong></a>
-      <a class="contact-detail" href="https://www.linkedin.com/in/vivek-verma-66a503194/" target="_blank" rel="noopener"><span>LinkedIn</span><strong>Connect on LinkedIn ↗</strong></a>
+    <div class="contact-info-card">
+      <div class="contact-info-head">
+        <span class="contact-kicker">LET'S CONNECT</span>
+        <h3>Have a project or opportunity?</h3>
+        <p>Reach out directly or send me a message. I usually respond as soon as possible.</p>
+      </div>
+      <div class="contact-details">
+        <a class="contact-detail" href="tel:+919984062355">
+          <span class="contact-icon">☎</span>
+          <span class="contact-detail-copy"><small>Phone</small><strong>+91 9984062355</strong></span>
+          <b>↗</b>
+        </a>
+        <a class="contact-detail" href="mailto:vivekverma3025@gmail.com">
+          <span class="contact-icon">✉</span>
+          <span class="contact-detail-copy"><small>Email</small><strong>vivekverma3025@gmail.com</strong></span>
+          <b>↗</b>
+        </a>
+        <a class="contact-detail" href="https://www.linkedin.com/in/vivek-verma-66a503194/" target="_blank" rel="noopener">
+          <span class="contact-icon">in</span>
+          <span class="contact-detail-copy"><small>LinkedIn</small><strong>Connect on LinkedIn</strong></span>
+          <b>↗</b>
+        </a>
+      </div>
     </div>
 
-    <form class="contact-form" action="https://formsubmit.co/vivekverma3025@gmail.com" method="POST">
-      <input type="hidden" name="_subject" value="New Portfolio Contact — Vivek Verma">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_template" value="table">
-      <div class="form-row">
-        <label>Name<input type="text" name="name" placeholder="Your name" required></label>
-        <label>Email<input type="email" name="email" placeholder="your@email.com" required></label>
-      </div>
-      <div class="form-row">
-        <label>Phone <span>(optional)</span><input type="tel" name="phone" placeholder="+91 XXXXX XXXXX"></label>
-        <label>Subject<input type="text" name="subject" placeholder="Project / Job opportunity" required></label>
-      </div>
-      <label>Message<textarea name="message" rows="6" placeholder="Tell me about your project or opportunity..." required></textarea></label>
-      <button class="btn primary form-submit" type="submit">Send Message ↗</button>
-      <p class="form-note">Your message will be sent to my email.</p>
-    </form>
+    <div class="contact-form-shell">
+      <form class="contact-form" action="https://formsubmit.co/vivekverma3025@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Portfolio Contact — Vivek Verma">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <div class="form-heading">
+          <span>CONTACT ME</span>
+          <h3>Send me a message</h3>
+          <p>Fill in the details below and I'll get back to you.</p>
+        </div>
+        <div class="form-row">
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+        </div>
+        <div class="form-row">
+          <label>Phone <span>(optional)</span><input type="tel" name="phone" placeholder="+91 XXXXX XXXXX"></label>
+          <label>Subject<input type="text" name="subject" placeholder="Project / Job opportunity"></label>
+        </div>
+        <label>Message<textarea name="message" placeholder="Tell me about your project or opportunity..." required></textarea></label>
+        <button class="btn primary form-submit" type="submit">Send Message <span>↗</span></button>
+        <p class="form-note">Your message will be securely forwarded to my email.</p>
+      </form>
+    </div>
   </div>
 </section>
 </main>
