@@ -1,49 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta name="description" content="Vivek Verma | Flutter Developer Portfolio">
 <title>Vivek Verma | Flutter Developer</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <div class="bg"></div>
+
 <header class="navbar">
   <a href="#home" class="logo">&lt;Vivek<span>/&gt;</span></a>
+
   <nav id="nav">
-    <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
   </nav>
-  <a class="resume top-resume" href="assets/Vivek_Verma_Resume.pdf" download>Resume ↗</a>
+
+  <a class="resume top-resume" href="assets/Vivek_Verma_Resume.pdf" download>
+    Resume ↗
+  </a>
+
   <button id="menuBtn" class="menu" aria-label="menu">☰</button>
 </header>
 
 <main>
-<section id="home" class="hero container">
-  <div class="hero-left reveal">
-    <div class="availability"><span></span> Available for opportunities</div>
-    <p class="intro">HELLO, I'M</p>
-    <h1>Vivek <span>Verma.</span></h1>
-    <h2>Flutter Developer <i>✦</i></h2>
-    <p class="hero-text">Flutter Developer with 3+ years of experience building scalable, high-performance applications across <b>Fintech, E-commerce and business domains.</b></p>
-    <div class="buttons"><a class="btn primary" href="#projects">View My Work →</a><a class="btn secondary" href="mailto:vivekverma3025@gmail.com">Let's Talk ↗</a></div>
-    <div class="social"><a href="https://github.com/vivek3025" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/vivek-verma-66a503194/" target="_blank" rel="noopener">LinkedIn ↗</a><a href="mailto:vivekverma3025@gmail.com">Email ↗</a></div>
-  </div>
-  <div class="hero-right">
-    <div class="photo-orbit">
-      <div class="photo-ring"></div>
-      <div class="hero-photo">
-        <img src="./assets/vivek-verma.png" alt="Vivek Verma - Flutter Developer">
-      </div>
-      <div class="photo-badge">Flutter<br><span>Developer</span></div>
-    </div>
-    <div class="hero-tech-pills"><span>Flutter</span><span>Dart</span><span>Riverpod</span><span>REST API</span></div>
 
-      <div class="code-wrap reveal">
-    <div class="code-card">
-      <div class="code-head"><b></b><b></b><b></b><span>vivek_verma.dart</span></div>
+<!-- ================= HOME ================= -->
+
+<section id="home" class="hero container">
+
+  <div class="hero-left reveal">
+
+    <div class="availability">
+      <span></span> Available for opportunities
+    </div>
+
+    <p class="intro">HELLO, I'M</p>
+
+    <h1>Vivek <span>Verma.</span></h1>
+
+    <h2>Flutter Developer <i>✦</i></h2>
+
+    <p class="hero-text">
+      Flutter Developer with 3+ years of experience building scalable,
+      high-performance applications across
+      <b>Fintech, E-commerce and business domains.</b>
+    </p>
+
+    <div class="buttons">
+      <a class="btn primary" href="#projects">View My Work →</a>
+      <a class="btn secondary" href="mailto:vivekverma3025@gmail.com">
+        Let's Talk ↗
+      </a>
+    </div>
+
+    <div class="social">
+      <a href="https://github.com/vivek3025" target="_blank" rel="noopener">
+        GitHub ↗
+      </a>
+
+      <a href="https://www.linkedin.com/in/vivek-verma-66a503194/" target="_blank" rel="noopener">
+        LinkedIn ↗
+      </a>
+
+      <a href="mailto:vivekverma3025@gmail.com">
+        Email ↗
+      </a>
+    </div>
+
+  </div>
+
+
+  <div class="hero-right">
+
+    <div class="photo-orbit">
+
+      <div class="photo-ring"></div>
+
+      <div class="hero-photo">
+        <img
+          src="./assets/vivek-verma.png"
+          alt="Vivek Verma - Flutter Developer"
+        >
+      </div>
+
+      <div class="photo-badge">
+        Flutter<br>
+        <span>Developer</span>
+      </div>
+
+    </div>
+
+    <div class="hero-tech-pills">
+      <span>Flutter</span>
+      <span>Dart</span>
+      <span>Riverpod</span>
+      <span>REST API</span>
+    </div>
+
+
+    <div class="code-wrap reveal">
+
+      <div class="code-card">
+
+        <div class="code-head">
+          <b></b>
+          <b></b>
+          <b></b>
+          <span>vivek_verma.dart</span>
+        </div>
+
 <pre><code><em>class</em> <strong>VivekVerma</strong> {
   <em>final</em> role = <mark>'Flutter Developer'</mark>;
   <em>final</em> experience = <u>3+</u>;
@@ -59,120 +137,684 @@
   <strong>String</strong> build() =>
       <mark>'Ideas → Production'</mark>;
 }</code></pre>
+
+      </div>
+
     </div>
+
   </div>
-  </div>
+
 </section>
+
+
+<!-- ================= STATS ================= -->
 
 <section class="stats container reveal">
-  <div><b>3+</b><span>Years Experience</span></div>
-  <div><b>10+</b><span>Flutter Apps</span></div>
-  <div><b>50+</b><span>REST APIs</span></div>
-  <div><b>25%</b><span>Load Time Improved</span></div>
+
+  <div>
+    <b>3+</b>
+    <span>Years Experience</span>
+  </div>
+
+  <div>
+    <b>10+</b>
+    <span>Flutter Apps</span>
+  </div>
+
+  <div>
+    <b>50+</b>
+    <span>REST APIs</span>
+  </div>
+
+  <div>
+    <b>25%</b>
+    <span>Load Time Improved</span>
+  </div>
+
 </section>
+
+
+<!-- ================= ABOUT ================= -->
 
 <section id="about" class="section container">
-  <div class="section-title reveal"><span>01</span><h2>About Me</h2></div>
-  <div class="about-grid reveal">
-    <div class="about-main"><p class="big">I turn product ideas into <span>scalable, polished</span> cross-platform applications.</p></div>
-    <div><p>I'm a Flutter Developer / Analyst Programmer L2 at KGC Infotech Pvt. Ltd. (Zyro), with hands-on experience in production applications.</p><p>My work includes responsive UI development, Riverpod state management, REST API integration, debugging, performance optimization, secure API communication and application deployment.</p><a href="assets/Vivek_Verma_Resume.pdf" class="text-link" download>Download Resume ↓</a></div>
+
+  <div class="section-title reveal">
+    <span>01</span>
+    <h2>About Me</h2>
   </div>
+
+  <div class="about-grid reveal">
+
+    <div class="about-main">
+      <p class="big">
+        I turn product ideas into
+        <span>scalable, polished</span>
+        cross-platform applications.
+      </p>
+    </div>
+
+    <div>
+
+      <p>
+        I'm a Flutter Developer / Analyst Programmer L2 at
+        KGC Infotech Pvt. Ltd. (Zyro), with hands-on experience
+        in production applications.
+      </p>
+
+      <p>
+        My work includes responsive UI development, Riverpod
+        state management, REST API integration, debugging,
+        performance optimization, secure API communication
+        and application deployment.
+      </p>
+
+      <a href="assets/Vivek_Verma_Resume.pdf" class="text-link" download>
+        Download Resume ↓
+      </a>
+
+    </div>
+
+  </div>
+
 </section>
+
+
+<!-- ================= EXPERIENCE ================= -->
 
 <section id="experience" class="section container">
-  <div class="section-title reveal"><span>02</span><h2>Experience</h2></div>
+
+  <div class="section-title reveal">
+    <span>02</span>
+    <h2>Experience</h2>
+  </div>
+
   <article class="experience-card reveal">
-    <div class="exp-top"><div><p class="muted">JUL 2023 — PRESENT</p><h3>Flutter Developer / Analyst Programmer L2</h3><h4>KGC Infotech Pvt. Ltd. <span>· Zyro</span></h4></div><div class="exp-no">01</div></div>
-    <p>Developing and maintaining production Flutter applications including merchant onboarding, merchant apps, E-commerce & POS, delivery, fintech and payment-related applications.</p>
-    <div class="tags"><span>Flutter</span><span>Dart</span><span>Riverpod</span><span>Dio</span><span>REST APIs</span><span>Firebase</span><span>OneSignal</span><span>Git</span></div>
+
+    <div class="exp-top">
+
+      <div>
+
+        <p class="muted">JUL 2023 — PRESENT</p>
+
+        <h3>
+          Flutter Developer / Analyst Programmer L2
+        </h3>
+
+        <h4>
+          KGC Infotech Pvt. Ltd.
+          <span>· Zyro</span>
+        </h4>
+
+      </div>
+
+      <div class="exp-no">01</div>
+
+    </div>
+
+    <p>
+      Developing and maintaining production Flutter applications
+      including merchant onboarding, merchant apps, E-commerce & POS,
+      delivery, fintech and payment-related applications.
+    </p>
+
+    <div class="tags">
+      <span>Flutter</span>
+      <span>Dart</span>
+      <span>Riverpod</span>
+      <span>Dio</span>
+      <span>REST APIs</span>
+      <span>Firebase</span>
+      <span>OneSignal</span>
+      <span>Git</span>
+    </div>
+
   </article>
+
 </section>
+
+
+<!-- ================= SKILLS ================= -->
 
 <section id="skills" class="section container">
-  <div class="section-title reveal"><span>03</span><h2>Skills & Toolbox</h2></div>
-  <div class="skills-grid">
-    <div class="skill-card reveal"><span class="skill-icon">◈</span><h3>Mobile Development</h3><p>Flutter · Dart · Cross-platform</p></div>
-    <div class="skill-card reveal"><span class="skill-icon">◉</span><h3>State Management</h3><p>Riverpod · BLoC (Basic)</p></div>
-    <div class="skill-card reveal"><span class="skill-icon">↔</span><h3>Networking</h3><p>Dio · HTTP · REST APIs · JSON</p></div>
-    <div class="skill-card reveal"><span class="skill-icon">⌘</span><h3>Architecture</h3><p>Clean Architecture · Repository Pattern · DI</p></div>
-    <div class="skill-card reveal"><span class="skill-icon">✦</span><h3>UI / UX</h3><p>Responsive UI · Adaptive Layouts · Material Design</p></div>
-    <div class="skill-card reveal"><span class="skill-icon">⚡</span><h3>Tools & Delivery</h3><p>Git · GitHub · Firebase · OneSignal · CI/CD</p></div>
+
+  <div class="section-title reveal">
+    <span>03</span>
+    <h2>Skills & Toolbox</h2>
   </div>
+
+  <div class="skills-grid">
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">◈</span>
+      <h3>Mobile Development</h3>
+      <p>Flutter · Dart · Cross-platform</p>
+    </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">◉</span>
+      <h3>State Management</h3>
+      <p>Riverpod · BLoC (Basic)</p>
+    </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">↔</span>
+      <h3>Networking</h3>
+      <p>Dio · HTTP · REST APIs · JSON</p>
+    </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">⌘</span>
+      <h3>Architecture</h3>
+      <p>Clean Architecture · Repository Pattern · DI</p>
+    </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">✦</span>
+      <h3>UI / UX</h3>
+      <p>Responsive UI · Adaptive Layouts · Material Design</p>
+    </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">⚡</span>
+      <h3>Tools & Delivery</h3>
+      <p>Git · GitHub · Firebase · OneSignal · CI/CD</p>
+    </div>
+
+  </div>
+
 </section>
+
+
+<!-- ================= PROJECTS ================= -->
 
 <section id="projects" class="section container">
-  <div class="section-title reveal"><span>04</span><h2>Selected Work</h2></div>
-  <div class="projects-grid">
-    <article class="project featured reveal"><div class="project-num">01 / FEATURED</div><div class="project-content"><h3>Zyro — Merchant Onboarding & Merchant App</h3><p>Business-focused Flutter applications for merchant onboarding, POS billing, QR payments, inventory, khata, statements and settlements.</p><div class="specs"><b>Domain</b><span>Fintech · B2B</span><b>Core</b><span>Onboarding · POS · QR · Inventory · Khata · Settlements</span></div><div class="tags"><span>Flutter</span><span>Riverpod</span><span>Dio</span><span>REST APIs</span><span>POS</span><span>Payments</span></div></div><div class="project-arrow">↗</div></article>
-    <article class="project reveal"><div class="project-num">02</div><h3>Shopaver</h3><p>E-commerce and POS application with inventory management, billing, khata, invoices, appointments and WhatsApp commerce workflows.</p><div class="specs"><b>Domain</b><span>E-commerce · Retail</span><b>Core</b><span>Inventory · POS · Billing · Khata · WhatsApp</span></div><div class="tags"><span>Flutter</span><span>Riverpod</span><span>Dio</span><span>E-commerce</span><span>POS</span></div></article>
-    <article class="project reveal"><div class="project-num">03</div><h3>BPCL Delivery App</h3><p>Delivery-focused mobile application built to support business delivery workflows and operational processes.</p><div class="specs"><b>Domain</b><span>Delivery · Operations</span><b>Core</b><span>Delivery workflow · API integration · Tracking</span></div><div class="tags"><span>Flutter</span><span>REST API</span><span>Delivery</span><span>Business App</span></div></article>
-    <article class="project reveal"><div class="project-num">04</div><h3>ZPay — Voucher App</h3><p>Voucher-focused mobile application designed for a smooth and convenient digital voucher experience.</p><div class="specs"><b>Domain</b><span>Fintech · Digital Vouchers</span><b>Core</b><span>Voucher flows · Transactions · Secure APIs</span></div><div class="tags"><span>Flutter</span><span>Voucher</span><span>REST API</span><span>Mobile App</span></div></article>
-    <article class="project reveal"><div class="project-num">05</div><h3>TPApp</h3><p>Fintech-focused mobile application with payment-oriented user flows, QR interactions and transaction experiences.</p><div class="specs"><b>Domain</b><span>Fintech · Payments</span><b>Core</b><span>QR · Payment flows · Transactions</span></div><div class="tags"><span>Flutter</span><span>Riverpod</span><span>QR</span><span>Fintech</span></div></article>
-    <article class="project reveal"><div class="project-num">06</div><h3>Gold & Silver Investment App</h3><p>Investment-focused mobile experience for tracking and interacting with gold and silver investment information.</p><div class="specs"><b>Domain</b><span>Investment · Digital Assets</span><b>Core</b><span>Market data · Charts · Investment APIs</span></div><div class="tags"><span>Flutter</span><span>Charts</span><span>Investment</span><span>APIs</span></div></article>
-    <article class="project reveal"><div class="project-num">07</div><h3>Face Recognition Attendance</h3><p>Attendance solution using Flutter with Python, Flask, OpenCV and MySQL to reduce manual attendance work.</p><div class="specs"><b>Domain</b><span>Automation · Attendance</span><b>Core</b><span>Face recognition · OpenCV · Flask · MySQL</span></div><div class="tags"><span>Flutter</span><span>Python</span><span>Flask</span><span>OpenCV</span><span>MySQL</span></div></article>
+
+  <div class="section-title reveal">
+    <span>04</span>
+    <h2>Selected Work</h2>
   </div>
-  <p class="project-note">Some applications are proprietary, so source code and private implementation details are not publicly displayed.</p>
+
+  <div class="projects-grid">
+
+    <article class="project featured reveal">
+
+      <div class="project-num">01 / FEATURED</div>
+
+      <div class="project-content">
+
+        <h3>
+          Zyro — Merchant Onboarding & Merchant App
+        </h3>
+
+        <p>
+          Business-focused Flutter applications for merchant onboarding,
+          POS billing, QR payments, inventory, khata, statements and settlements.
+        </p>
+
+        <div class="specs">
+          <b>Domain</b>
+          <span>Fintech · B2B</span>
+
+          <b>Core</b>
+          <span>
+            Onboarding · POS · QR · Inventory · Khata · Settlements
+          </span>
+        </div>
+
+        <div class="tags">
+          <span>Flutter</span>
+          <span>Riverpod</span>
+          <span>Dio</span>
+          <span>REST APIs</span>
+          <span>POS</span>
+          <span>Payments</span>
+        </div>
+
+      </div>
+
+      <div class="project-arrow">↗</div>
+
+    </article>
+
+
+    <article class="project reveal">
+
+      <div class="project-num">02</div>
+
+      <h3>Shopaver</h3>
+
+      <p>
+        E-commerce and POS application with inventory management,
+        billing, khata, invoices, appointments and WhatsApp commerce workflows.
+      </p>
+
+      <div class="specs">
+        <b>Domain</b>
+        <span>E-commerce · Retail</span>
+
+        <b>Core</b>
+        <span>Inventory · POS · Billing · Khata · WhatsApp</span>
+      </div>
+
+      <div class="tags">
+        <span>Flutter</span>
+        <span>Riverpod</span>
+        <span>Dio</span>
+        <span>E-commerce</span>
+        <span>POS</span>
+      </div>
+
+    </article>
+
+
+    <article class="project reveal">
+
+      <div class="project-num">03</div>
+
+      <h3>BPCL Delivery App</h3>
+
+      <p>
+        Delivery-focused mobile application built to support
+        business delivery workflows and operational processes.
+      </p>
+
+      <div class="specs">
+        <b>Domain</b>
+        <span>Delivery · Operations</span>
+
+        <b>Core</b>
+        <span>Delivery workflow · API integration · Tracking</span>
+      </div>
+
+      <div class="tags">
+        <span>Flutter</span>
+        <span>REST API</span>
+        <span>Delivery</span>
+        <span>Business App</span>
+      </div>
+
+    </article>
+
+
+    <article class="project reveal">
+
+      <div class="project-num">04</div>
+
+      <h3>ZPay — Voucher App</h3>
+
+      <p>
+        Voucher-focused mobile application designed for a smooth
+        and convenient digital voucher experience.
+      </p>
+
+      <div class="specs">
+        <b>Domain</b>
+        <span>Fintech · Digital Vouchers</span>
+
+        <b>Core</b>
+        <span>Voucher flows · Transactions · Secure APIs</span>
+      </div>
+
+      <div class="tags">
+        <span>Flutter</span>
+        <span>Voucher</span>
+        <span>REST API</span>
+        <span>Mobile App</span>
+      </div>
+
+    </article>
+
+
+    <article class="project reveal">
+
+      <div class="project-num">05</div>
+
+      <h3>TPApp</h3>
+
+      <p>
+        Fintech-focused mobile application with payment-oriented
+        user flows, QR interactions and transaction experiences.
+      </p>
+
+      <div class="specs">
+        <b>Domain</b>
+        <span>Fintech · Payments</span>
+
+        <b>Core</b>
+        <span>QR · Payment flows · Transactions</span>
+      </div>
+
+      <div class="tags">
+        <span>Flutter</span>
+        <span>Riverpod</span>
+        <span>QR</span>
+        <span>Fintech</span>
+      </div>
+
+    </article>
+
+
+    <article class="project reveal">
+
+      <div class="project-num">06</div>
+
+      <h3>Gold & Silver Investment App</h3>
+
+      <p>
+        Investment-focused mobile experience for tracking and
+        interacting with gold and silver investment information.
+      </p>
+
+      <div class="specs">
+        <b>Domain</b>
+        <span>Investment · Digital Assets</span>
+
+        <b>Core</b>
+        <span>Market data · Charts · Investment APIs</span>
+      </div>
+
+      <div class="tags">
+        <span>Flutter</span>
+        <span>Charts</span>
+        <span>Investment</span>
+        <span>APIs</span>
+      </div>
+
+    </article>
+
+
+    <article class="project reveal">
+
+      <div class="project-num">07</div>
+
+      <h3>Face Recognition Attendance</h3>
+
+      <p>
+        Attendance solution using Flutter with Python, Flask,
+        OpenCV and MySQL to reduce manual attendance work.
+      </p>
+
+      <div class="specs">
+        <b>Domain</b>
+        <span>Automation · Attendance</span>
+
+        <b>Core</b>
+        <span>Face recognition · OpenCV · Flask · MySQL</span>
+      </div>
+
+      <div class="tags">
+        <span>Flutter</span>
+        <span>Python</span>
+        <span>Flask</span>
+        <span>OpenCV</span>
+        <span>MySQL</span>
+      </div>
+
+    </article>
+
+  </div>
+
+  <p class="project-note">
+    Some applications are proprietary, so source code and private
+    implementation details are not publicly displayed.
+  </p>
+
 </section>
+
+
+<!-- ================= CONTACT ================= -->
 
 <section id="contact" class="contact container reveal">
-  <p class="muted">05 / LET'S CONNECT</p>
-  <h2>Have an idea?<br><span>Let's build it.</span></h2>
-  <p>I'm open to Flutter Developer opportunities and interesting product collaborations.</p>
 
-  <!-- CONTACT DETAILS + CONTACT FORM -->
+  <p class="muted">05 / LET'S CONNECT</p>
+
+  <h2>
+    Have an idea?<br>
+    <span>Let's build it.</span>
+  </h2>
+
+  <p>
+    I'm open to Flutter Developer opportunities and interesting
+    product collaborations.
+  </p>
+
+
   <div class="contact-grid">
+
+    <!-- CONTACT INFO -->
+
     <div class="contact-info-card">
+
       <div class="contact-info-head">
+
         <span class="contact-kicker">LET'S CONNECT</span>
+
         <h3>Have a project or opportunity?</h3>
-        <p>Reach out directly or send me a message. I usually respond as soon as possible.</p>
+
+        <p>
+          Reach out directly or send me a message.
+          I usually respond as soon as possible.
+        </p>
+
       </div>
+
+
       <div class="contact-details">
+
         <a class="contact-detail" href="tel:+919984062355">
+
           <span class="contact-icon">☎</span>
-          <span class="contact-detail-copy"><small>Phone</small><strong>+91 9984062355</strong></span>
+
+          <span class="contact-detail-copy">
+            <small>Phone</small>
+            <strong>+91 9984062355</strong>
+          </span>
+
           <b>↗</b>
+
         </a>
+
+
         <a class="contact-detail" href="mailto:vivekverma3025@gmail.com">
+
           <span class="contact-icon">✉</span>
-          <span class="contact-detail-copy"><small>Email</small><strong>vivekverma3025@gmail.com</strong></span>
+
+          <span class="contact-detail-copy">
+            <small>Email</small>
+            <strong>vivekverma3025@gmail.com</strong>
+          </span>
+
           <b>↗</b>
+
         </a>
-        <a class="contact-detail" href="https://www.linkedin.com/in/vivek-verma-66a503194/" target="_blank" rel="noopener">
+
+
+        <a
+          class="contact-detail"
+          href="https://www.linkedin.com/in/vivek-verma-66a503194/"
+          target="_blank"
+          rel="noopener"
+        >
+
           <span class="contact-icon">in</span>
-          <span class="contact-detail-copy"><small>LinkedIn</small><strong>Connect on LinkedIn</strong></span>
+
+          <span class="contact-detail-copy">
+            <small>LinkedIn</small>
+            <strong>Connect on LinkedIn</strong>
+          </span>
+
           <b>↗</b>
+
         </a>
+
       </div>
+
     </div>
+
+
+    <!-- CONTACT FORM -->
 
     <div class="contact-form-shell">
-      <form class="contact-form" action="https://formsubmit.co/vivekverma3025@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="New Portfolio Contact — Vivek Verma">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
+
+      <form
+        class="contact-form"
+        action="https://formsubmit.co/vivekverma3025@gmail.com"
+        method="POST"
+      >
+
+        <input
+          type="hidden"
+          name="_subject"
+          value="New Portfolio Contact — Vivek Verma"
+        >
+
+        <input
+          type="hidden"
+          name="_captcha"
+          value="false"
+        >
+
+        <input
+          type="hidden"
+          name="_template"
+          value="table"
+        >
+
+
         <div class="form-heading">
+
           <span>CONTACT ME</span>
+
           <h3>Send me a message</h3>
-          <p>Fill in the details below and I'll get back to you.</p>
+
+          <p>
+            Fill in the details below and I'll get back to you.
+          </p>
+
         </div>
+
+
+        <!-- NAME + EMAIL -->
+
         <div class="form-row">
-          <label>Name <span class="required-star">*</span><input type="text" name="name" placeholder="Your name" required></label>
-          <label>Email <span class="required-star">*</span><input type="email" name="email" placeholder="you@example.com" required></label>
+
+          <label>
+            <span class="field-label">
+              Name <span class="required-star">*</span>
+            </span>
+
+            <input
+              type="text"
+              name="name"
+              placeholder="Your name"
+              required
+            >
+          </label>
+
+
+          <label>
+            <span class="field-label">
+              Email <span class="required-star">*</span>
+            </span>
+
+            <input
+              type="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            >
+          </label>
+
         </div>
+
+
+        <!-- PHONE + SUBJECT -->
+
         <div class="form-row">
-          <label>Phone<input type="tel" name="phone" placeholder="+91 XXXXX XXXXX"></label>
-          <label>Subject <span class="required-star">*</span><input type="text" name="subject" placeholder="Project / Job opportunity" required></label>
+
+          <label>
+            <span class="field-label">
+              Phone
+            </span>
+
+            <input
+              type="tel"
+              name="phone"
+              placeholder="+91 XXXXX XXXXX"
+            >
+          </label>
+
+
+          <label>
+            <span class="field-label">
+              Subject <span class="required-star">*</span>
+            </span>
+
+            <input
+              type="text"
+              name="subject"
+              placeholder="Project / Job opportunity"
+              required
+            >
+          </label>
+
         </div>
-        <label>Message <span class="required-star">*</span><textarea name="message" placeholder="Tell me about your project or opportunity..." required></textarea></label>
-        <button class="btn primary form-submit" type="submit">Send Message <span>↗</span></button>
-        <p class="form-note">Your message will be securely forwarded to my email.</p>
+
+
+        <!-- MESSAGE -->
+
+        <label>
+
+          <span class="field-label">
+            Message <span class="required-star">*</span>
+          </span>
+
+          <textarea
+            name="message"
+            placeholder="Tell me about your project or opportunity..."
+            required
+          ></textarea>
+
+        </label>
+
+
+        <button
+          class="btn primary form-submit"
+          type="submit"
+        >
+          Send Message <span>↗</span>
+        </button>
+
+
+        <p class="form-note">
+          Your message will be securely forwarded to my email.
+        </p>
+
       </form>
+
     </div>
+
   </div>
+
 </section>
+
 </main>
 
-<footer class="container"><span>© <span id="year"></span> Vivek Verma</span><span>Built with HTML, CSS & JavaScript ✦</span></footer>
+
+<footer class="container">
+
+  <span>
+    © <span id="year"></span> Vivek Verma
+  </span>
+
+  <span>
+    Built with HTML, CSS & JavaScript ✦
+  </span>
+
+</footer>
+
+
 <script src="script.js"></script>
-</body></html>
+
+</body>
+</html>
