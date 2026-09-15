@@ -104,7 +104,32 @@
   <p class="muted">05 / LET'S CONNECT</p>
   <h2>Have an idea?<br><span>Let's build it.</span></h2>
   <p>I'm open to Flutter Developer opportunities and interesting product collaborations.</p>
-  <div class="contact-actions"><a class="btn primary" href="mailto:vivekverma3025@gmail.com">vivekverma3025@gmail.com ↗</a><a class="btn secondary" href="https://www.linkedin.com/in/vivek-verma-66a503194/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+
+  <!-- CONTACT DETAILS + CONTACT FORM -->
+  <div class="contact-grid">
+    <div class="contact-details">
+      <a class="contact-detail" href="tel:+919984062355"><span>Phone</span><strong>+91 9984062355 ↗</strong></a>
+      <a class="contact-detail" href="mailto:vivekverma3025@gmail.com"><span>Email</span><strong>vivekverma3025@gmail.com ↗</strong></a>
+      <a class="contact-detail" href="https://www.linkedin.com/in/vivek-verma-66a503194/" target="_blank" rel="noopener"><span>LinkedIn</span><strong>Connect on LinkedIn ↗</strong></a>
+    </div>
+
+    <form class="contact-form" action="https://formsubmit.co/vivekverma3025@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="New Portfolio Contact — Vivek Verma">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <div class="form-row">
+        <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+        <label>Email<input type="email" name="email" placeholder="your@email.com" required></label>
+      </div>
+      <div class="form-row">
+        <label>Phone <span>(optional)</span><input type="tel" name="phone" placeholder="+91 XXXXX XXXXX"></label>
+        <label>Subject<input type="text" name="subject" placeholder="Project / Job opportunity" required></label>
+      </div>
+      <label>Message<textarea name="message" rows="6" placeholder="Tell me about your project or opportunity..." required></textarea></label>
+      <button class="btn primary form-submit" type="submit">Send Message ↗</button>
+      <p class="form-note">Your message will be sent to my email.</p>
+    </form>
+  </div>
 </section>
 </main>
 
