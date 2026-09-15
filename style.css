@@ -117,7 +117,10 @@
 .photo-ring { position:absolute; inset:5px; border-radius:50%; background:conic-gradient(from 30deg, #7c3aed, #2563eb, #a855f7, #7c3aed); filter:blur(.2px); box-shadow:0 0 45px rgba(124,58,237,.28); }
 .photo-ring::after { content:""; position:absolute; inset:7px; border-radius:50%; background:#080b14; }
 .hero-photo { position:relative; z-index:2; width:276px; height:276px; border-radius:50%; padding:7px; background:linear-gradient(145deg,#a855f7,#2563eb); box-shadow:0 22px 70px rgba(37,99,235,.22); }
-.hero-photo img { width:100%; height:100%; display:block; object-fit:cover; object-position:center; border-radius:50%; background:#111827; }
+.hero-photo img {
+  width:100%; height:100%; display:block !important; visibility:visible !important; opacity:1 !important;
+  object-fit:cover; object-position:center; border-radius:50%; background:#111827;
+}
 .photo-badge { position:absolute; z-index:4; right:-8px; bottom:24px; padding:10px 16px; border:1px solid rgba(255,255,255,.18); border-radius:14px; background:rgba(10,13,24,.86); backdrop-filter:blur(12px); color:#fff; font-size:12px; line-height:1.25; box-shadow:0 12px 30px rgba(0,0,0,.28); }
 .photo-badge span { color:#b9a7ff; }
 .hero-tech-pills { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; max-width:350px; }
@@ -135,3 +138,13 @@
 .hero-right .code-card{transform:rotate(.6deg)}
 .hero-right .code-card pre{font-size:12px;line-height:1.65;padding:20px}
 @media(max-width:899px){.hero-right .code-wrap{max-width:620px}.hero-right .code-card pre{font-size:11px}}
+
+
+/* ===== HERO PHOTO FIX ===== */
+.hero-right { opacity:1 !important; visibility:visible !important; transform:none !important; }
+.photo-orbit { position:relative; flex:0 0 auto; z-index:5; }
+.hero-photo { overflow:hidden; position:relative; z-index:10; }
+.hero-photo img { position:relative; z-index:11; max-width:none; }
+.photo-ring { z-index:1; pointer-events:none; }
+.photo-badge { pointer-events:none; }
+@media (max-width:899px) { .hero-right { opacity:1 !important; visibility:visible !important; transform:none !important; } }
